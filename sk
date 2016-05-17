@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+# quits out of a detached screen
+
+screen -X -S $1 quit
